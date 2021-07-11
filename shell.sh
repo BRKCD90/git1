@@ -18,6 +18,7 @@ do
     yum install httpd -y
     service httpd start
   else
+    echo " there is nothing "
     echo " nothing "
   fi
 done

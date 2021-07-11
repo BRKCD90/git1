@@ -11,7 +11,7 @@ do
   then
     mkdir /opt/git
     cd /opt/git
-    touch om
+    touch om hi
     echo " directory and file created as category "
   elif [ "$aa" -eq 11 ];
   then

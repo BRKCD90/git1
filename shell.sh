@@ -12,7 +12,7 @@ do
     mkdir /opt/git
     cd /opt/git
     touch om
-    echo " directory and file created "
+    echo " directory and file created as category "
   elif [ "$aa" -eq 11 ];
   then
     yum install httpd -y

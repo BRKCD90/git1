@@ -1,5 +1,6 @@
 
 #!/bin/bash
+cat /etc/init.d
 declare -i a
 read -p " Enter the number " aa
 
@@ -12,7 +13,7 @@ do
     mkdir /opt/git
     cd /opt/git
     touch om om1
-    echo " directory and file created as category "
+    echo " directory and file created as category " > om
   elif [ "$aa" -eq 11 ];
   then
     yum install httpd -y
